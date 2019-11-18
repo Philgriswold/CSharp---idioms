@@ -24,7 +24,7 @@ namespace idioms
             {
                 string key = idiom.Key;
                 List<string> value = idiom.Value;
-                string v = string.Join("" + value);
+                string v = string.Join(" ", value);
                 Console.WriteLine(key + " : " + v);
             };
         }
